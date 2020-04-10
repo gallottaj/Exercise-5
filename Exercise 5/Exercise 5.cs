@@ -24,7 +24,9 @@ namespace Exercise5
 
             //term is the number of times the user enters (number of iterations)
 
+#pragma warning disable IDE0018 // Inline variable declaration
             int terms;
+#pragma warning restore IDE0018 // Inline variable declaration
 
             decimal pi = 0;
 
